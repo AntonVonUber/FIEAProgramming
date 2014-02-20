@@ -1,0 +1,36 @@
+Application Init
+State_Intro Init
+State_Intro Cleanup
+State_Play Init
+numerator/denominator = 16/32 = 0.5
+Vector: Vector2D: (3, -5)       percentSpeedOfPaddle: 0.5
+numerator/denominator = 12/32 = 0.375
+Vector: Vector2D: (-2, -5)       percentSpeedOfPaddle: 0.375
+numerator/denominator = 19/32 = 0.59375
+Vector: Vector2D: (-3, -5)       percentSpeedOfPaddle: 0.59375
+numerator/denominator = 18/32 = 0.5625
+Vector: Vector2D: (3, -5)       percentSpeedOfPaddle: 0.5625
+numerator/denominator = 31/32 = 0.96875
+Vector: Vector2D: (-6, -4)       percentSpeedOfPaddle: 0.96875
+numerator/denominator = 27/32 = 0.84375
+Vector: Vector2D: (-5, -4)       percentSpeedOfPaddle: 0.84375
+numerator/denominator = 18/32 = 0.5625
+Vector: Vector2D: (3, -5)       percentSpeedOfPaddle: 0.5625
+numerator/denominator = 7/32 = 0.21875
+Vector: Vector2D: (-1, -5)       percentSpeedOfPaddle: 0.21875
+numerator/denominator = 10/32 = 0.3125
+Vector: Vector2D: (-1, -5)       percentSpeedOfPaddle: 0.3125
+numerator/denominator = 25/32 = 0.78125
+Vector: Vector2D: (-5, -5)       percentSpeedOfPaddle: 0.78125
+numerator/denominator = 3/32 = 0.09375
+Vector: Vector2D: (0, -5)       percentSpeedOfPaddle: 0.09375
+numerator/denominator = 3/32 = 0.09375
+Vector: Vector2D: (0, -5)       percentSpeedOfPaddle: 0.09375
+numerator/denominator = 7/32 = 0.21875
+Vector: Vector2D: (1, -5)       percentSpeedOfPaddle: 0.21875
+numerator/denominator = 15/32 = 0.46875
+Vector: Vector2D: (-3, -5)       percentSpeedOfPaddle: 0.46875
+numerator/denominator = 21/32 = 0.65625
+Vector: Vector2D: (-4, -5)       percentSpeedOfPaddle: 0.65625
+State_Play Cleanup
+Application Cleanup

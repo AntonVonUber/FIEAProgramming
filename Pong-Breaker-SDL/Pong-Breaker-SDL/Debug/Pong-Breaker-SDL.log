@@ -1,0 +1,35 @@
+﻿Build started 2/20/2014 1:24:19 PM.
+     1>Project "C:\Users\billy_000\Documents\Visual Studio 2010\Projects\Pong-Breaker-SDL\Pong-Breaker-SDL\Pong-Breaker-SDL.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Pong-Breaker-SDL.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\SDL2-2.0.1\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
+         Main.cpp
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\billy_000\Documents\Visual Studio 2010\Projects\Pong-Breaker-SDL\Debug\Pong-Breaker-SDL.exe" /INCREMENTAL:NO /NOLOGO sdl2_image.lib sdl2.lib sdl2main.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Pong-Breaker-SDL.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\billy_000\Documents\Visual Studio 2010\Projects\Pong-Breaker-SDL\Debug\Pong-Breaker-SDL.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\billy_000\Documents\Visual Studio 2010\Projects\Pong-Breaker-SDL\Debug\Pong-Breaker-SDL.lib" /MACHINE:X86 Debug\Application.obj
+         Debug\LevelLoader.obj
+         Debug\Main.obj
+         Debug\Object_Ball.obj
+         Debug\Object_Brick.obj
+         Debug\Object_Paddle.obj
+         Debug\State_Intro.obj
+         Debug\State_Menu.obj
+         Debug\State_Play.obj
+         Debug\Timer.obj
+         Debug\Window.obj
+         "..\..\..\..\..\..\..\SDL2-2.0.1\lib\x86\SDL2_ttf.lib"
+         "..\..\..\..\..\..\..\SDL2-2.0.1\VisualC\SDLmain\Win32\Debug\SDL2main.lib"
+         "..\..\..\..\..\..\..\SDL2-2.0.1\VisualC\SDL\Win32\Debug\SDL2.lib"
+         Generating code
+         Finished generating code
+         Pong-Breaker-SDL.vcxproj -> C:\Users\billy_000\Documents\Visual Studio 2010\Projects\Pong-Breaker-SDL\Debug\Pong-Breaker-SDL.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\billy_000\Documents\Visual Studio 2010\Projects\Pong-Breaker-SDL\Debug\Pong-Breaker-SDL.exe;#1" /manifest "Debug\Pong-Breaker-SDL.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Debug\Pong-Breaker-SDL.unsuccessfulbuild".
+         Touching "Debug\Pong-Breaker-SDL.lastbuildstate".
+     1>Done Building Project "C:\Users\billy_000\Documents\Visual Studio 2010\Projects\Pong-Breaker-SDL\Pong-Breaker-SDL\Pong-Breaker-SDL.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.48
