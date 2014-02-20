@@ -1,0 +1,6 @@
+#ifndef __PHYSICS_PROPERTIES_H__
+#define __PHYSICS_PROPERTIES_H__
+
+
+
+#endif	// __PHYSICS_PROPERTIES_H__

@@ -1,0 +1,47 @@
+﻿Build started 2/20/2014 2:13:38 PM.
+     1>Project "C:\Users\billy_000\Documents\Visual Studio 2010\Projects\PhysicsDemo - 2-2-14 - Copy\PhysicsDemo\PhysicsDemo.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release\PhysicsDemo.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Application.cpp GravityOrb.cpp Main.cpp Player.cpp Scene.cpp
+         Application.cpp
+     1>c:\users\billy_000\documents\visual studio 2010\projects\physicsdemo - 2-2-14 - copy\physicsdemo\SceneObject.h(45): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\billy_000\documents\visual studio 2010\projects\physicsdemo - 2-2-14 - copy\physicsdemo\SceneObject.h(46): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         GravityOrb.cpp
+     1>c:\users\billy_000\documents\visual studio 2010\projects\physicsdemo - 2-2-14 - copy\physicsdemo\SceneObject.h(45): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\billy_000\documents\visual studio 2010\projects\physicsdemo - 2-2-14 - copy\physicsdemo\SceneObject.h(46): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>GravityOrb.cpp(46): warning C4244: 'argument' : conversion from 'long double' to 'GLfloat', possible loss of data
+     1>GravityOrb.cpp(46): warning C4244: 'argument' : conversion from 'long double' to 'GLfloat', possible loss of data
+     1>GravityOrb.cpp(46): warning C4244: 'argument' : conversion from 'long double' to 'GLfloat', possible loss of data
+     1>GravityOrb.cpp(47): warning C4244: 'argument' : conversion from 'long double' to 'GLfloat', possible loss of data
+     1>GravityOrb.cpp(47): warning C4244: 'argument' : conversion from 'long double' to 'GLfloat', possible loss of data
+     1>GravityOrb.cpp(47): warning C4244: 'argument' : conversion from 'long double' to 'GLfloat', possible loss of data
+         Main.cpp
+     1>c:\users\billy_000\documents\visual studio 2010\projects\physicsdemo - 2-2-14 - copy\physicsdemo\SceneObject.h(45): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\billy_000\documents\visual studio 2010\projects\physicsdemo - 2-2-14 - copy\physicsdemo\SceneObject.h(46): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         Player.cpp
+     1>c:\users\billy_000\documents\visual studio 2010\projects\physicsdemo - 2-2-14 - copy\physicsdemo\SceneObject.h(45): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\billy_000\documents\visual studio 2010\projects\physicsdemo - 2-2-14 - copy\physicsdemo\SceneObject.h(46): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Player.cpp(46): warning C4244: 'argument' : conversion from 'long double' to 'GLfloat', possible loss of data
+     1>Player.cpp(46): warning C4244: 'argument' : conversion from 'long double' to 'GLfloat', possible loss of data
+     1>Player.cpp(46): warning C4244: 'argument' : conversion from 'long double' to 'GLfloat', possible loss of data
+     1>Player.cpp(47): warning C4244: 'argument' : conversion from 'long double' to 'GLfloat', possible loss of data
+     1>Player.cpp(47): warning C4244: 'argument' : conversion from 'long double' to 'GLfloat', possible loss of data
+     1>Player.cpp(47): warning C4244: 'argument' : conversion from 'long double' to 'GLfloat', possible loss of data
+         Scene.cpp
+     1>c:\users\billy_000\documents\visual studio 2010\projects\physicsdemo - 2-2-14 - copy\physicsdemo\SceneObject.h(45): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\billy_000\documents\visual studio 2010\projects\physicsdemo - 2-2-14 - copy\physicsdemo\SceneObject.h(46): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Scene.cpp(26): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\billy_000\Documents\Visual Studio 2010\Projects\PhysicsDemo - 2-2-14 - Copy\Release\PhysicsDemo.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\PhysicsDemo.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\billy_000\Documents\Visual Studio 2010\Projects\PhysicsDemo - 2-2-14 - Copy\Release\PhysicsDemo.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\billy_000\Documents\Visual Studio 2010\Projects\PhysicsDemo - 2-2-14 - Copy\Release\PhysicsDemo.lib" /MACHINE:X86 Release\Application.obj
+         Release\GravityOrb.obj
+         Release\Main.obj
+         Release\Player.obj
+         Release\Scene.obj
+     1>MSVCRT.lib(crtexew.obj) : error LNK2001: unresolved external symbol _WinMain@16
+     1>C:\Users\billy_000\Documents\Visual Studio 2010\Projects\PhysicsDemo - 2-2-14 - Copy\Release\PhysicsDemo.exe : fatal error LNK1120: 1 unresolved externals
+     1>Done Building Project "C:\Users\billy_000\Documents\Visual Studio 2010\Projects\PhysicsDemo - 2-2-14 - Copy\PhysicsDemo\PhysicsDemo.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.89
